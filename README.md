@@ -17,17 +17,11 @@
 
 ###
 
-<h2 align="left">Configurações necessárias</h2>
-
-###
-
-- `Docker` instalado.
-
-###
-
 <h2 align="left">Sobre o banco de dados</h2>
 
 ###
+
+### - Para criar o banco de dados através do Docker, siga os seguintes passos:
 
 - 1 - Acesse a pasta raiz do projeto
 
@@ -35,6 +29,15 @@
 
 - 3 - Com o container em execução, acesse o terminal do `container docker exec -it nomeDoContainer mongosh`.
 
-- 4 - Copie o conteúdo do arquivo ./database.mongodb, cole no terminal e aperte ENTER.
+- 4 - Copie o conteúdo do arquivo `./database.mongodb`, cole no terminal e aperte ENTER.
+
+### - Caso utilize o MongoDB localmente, o arquivo para popular o banco de dados se encontra em `./database.mongodb`.
 
 ###
+
+<h2 align="left">Desafio (Queries)</h2>
+
+Os desafios (queries) feitas no projeto se encontram na pasta `./challenges`. São 32 desafios.
+
+###
+
