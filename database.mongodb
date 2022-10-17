@@ -1,0 +1,244 @@
+use 'commerce';
+
+db.produtos.drop();
+
+db.produtos.insertMany([
+  {
+    "nome" : "Big Mac",
+    "ingredientes" : [ 
+      "hamburguer", 
+      "alface", 
+      "queijo", 
+      "molho especial", 
+      "cebola", 
+      "picles", 
+      "pão com gergelim"
+    ],
+    "tags" : [ 
+      "bovino", 
+      "pão"
+    ],
+    "valoresNutricionais" : [ 
+      {
+        "tipo" : "calorias",
+        "quantidade" : 502.0,
+        "unidadeMedida" : "kcal",
+        "percentual" : 25.0
+      }, 
+      {
+        "tipo" : "carboidratos",
+        "quantidade" : 45.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 15.0
+      }, 
+      {
+        "tipo" : "sódio",
+        "quantidade" : 1047.0,
+        "unidadeMedida" : "miligramas",
+        "percentual" : 44.0
+      }, 
+      {
+        "tipo" : "proteínas",
+        "quantidade" : 27.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 36.0
+      }, 
+      {
+        "tipo" : "lipídios",
+        "quantidade" : 25.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 45.0
+      }
+    ],
+    "descricao" : "Não existe nada igual\nDois hambúrgures, alface, queijo, molho especial, cebola e picles num pão com gergelim",
+    "curtidas" : 145.0,
+    "vendidos" : 137.0
+  },
+  {
+    "nome" : "Quarteirão com Queijo",
+    "ingredientes" : [ 
+      "hamburguer", 
+      "queijo", 
+      "cebola", 
+      "picles", 
+      "pão com gergelim", 
+      "ketchup", 
+      "mostarda"
+    ],
+    "valoresNutricionais" : [ 
+      {
+        "tipo" : "calorias",
+        "quantidade" : 528.0,
+        "unidadeMedida" : "kcal",
+        "percentual" : 26.0
+      }, 
+      {
+        "tipo" : "carboidratos",
+        "quantidade" : 33.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 11.0
+      }, 
+      {
+        "tipo" : "sódio",
+        "quantidade" : 1072.0,
+        "unidadeMedida" : "miligramas",
+        "percentual" : 35.0
+      }, 
+      {
+        "tipo" : "proteínas",
+        "quantidade" : 30.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 40.0
+      }, 
+      {
+        "tipo" : "lipídios",
+        "quantidade" : 31.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 56.0
+      }
+    ],
+    "descricao" : "Inigualável. Perfeito.\nUm hambúrguer feito com pura carne bovina, envolvida por duas fatias de queijo temperado com ketchup, mostarda, cebola e picles.",
+    "curtidas" : 13.0,
+    "vendidos" : 39.0
+  },
+  {
+    "nome" : "Cheddar McMelt",
+    "ingredientes" : [ 
+      "hamburguer", 
+      "queijo cheddar", 
+      "molho shoyu", 
+      "cebola grelhada", 
+      "pão escuro com gergelim"
+    ],
+    "valoresNutricionais" : [ 
+      {
+        "tipo" : "calorias",
+        "quantidade" : 468.0,
+        "unidadeMedida" : "kcal",
+        "percentual" : 23.0
+      }, 
+      {
+        "tipo" : "carboidratos",
+        "quantidade" : 30.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 10.0
+      }, 
+      {
+        "tipo" : "sódio",
+        "quantidade" : 819.0,
+        "unidadeMedida" : "miligramas",
+        "percentual" : 34.0
+      }, 
+      {
+        "tipo" : "proteínas",
+        "quantidade" : 28.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 37.0
+      }, 
+      {
+        "tipo" : "lipídios",
+        "quantidade" : 27.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 48.0
+      }
+    ],
+    "descricao" : "Sem palavras para descrever.\nFeito com carne bovina, delicioso queijo tipo cheddar derretido, cebola grelhada ao molho shoyu e para completar um pão escuro com gergelim.",
+    "curtidas" : 36.0,
+    "vendidos" : 97.0
+  },
+  {
+    "nome" : "McChicken",
+    "ingredientes" : [ 
+      "frango empanado", 
+      "molho suave", 
+      "alface", 
+      "pão com gergelim"
+    ],
+    "valoresNutricionais" : [ 
+      {
+        "tipo" : "calorias",
+        "quantidade" : 404.0,
+        "unidadeMedida" : "kcal",
+        "percentual" : 20.0
+      }, 
+      {
+        "tipo" : "carboidratos",
+        "quantidade" : 36.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 12.0
+      }, 
+      {
+        "tipo" : "sódio",
+        "quantidade" : 718.0,
+        "unidadeMedida" : "miligramas",
+        "percentual" : 24.0
+      }, 
+      {
+        "tipo" : "proteínas",
+        "quantidade" : 17.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 22.0
+      }, 
+      {
+        "tipo" : "lipídios",
+        "quantidade" : 22.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 39.0
+      }
+    ],
+    "tags" : [ 
+      "ave"
+    ],
+    "descricao" : "O sabor que você adora.\nFrango empanado e dourado com molho suave e cremoso, acompanhado de alface crocante num pão com gergelim.",
+    "curtidas" : 108.0,
+    "vendidos" : 85.0
+  },
+  {
+    "nome" : "Extra Chicken",
+    "ingredientes" : [ 
+      "frango empanado", 
+      "maionese", 
+      "alface", 
+      "pão com gergelim", 
+      "tomate"
+    ],
+    "valoresNutricionais" : [ 
+      {
+        "tipo" : "calorias",
+        "quantidade" : 345.0,
+        "unidadeMedida" : "kcal",
+        "percentual" : 17.0
+      }, 
+      {
+        "tipo" : "carboidratos",
+        "quantidade" : 35.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 12.0
+      }, 
+      {
+        "tipo" : "sódio",
+        "quantidade" : 662.0,
+        "unidadeMedida" : "miligramas",
+        "percentual" : 20.0
+      }, 
+      {
+        "tipo" : "proteínas",
+        "quantidade" : 13.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 18.0
+      }, 
+      {
+        "tipo" : "lipídios",
+        "quantidade" : 17.0,
+        "unidadeMedida" : "gramas",
+        "percentual" : 29.0
+      }
+    ],
+    "tags" : [ 
+      "ave"
+    ],
+    "descricao" : "Quem ama frango pede.\nPão com gergelim, frango empanado e crocante, alface crespa, tomate fresquinho e a famosa maionese do McDonald's",
+    "curtidas" : 64.0,
+    "vendidos" : 71.0
+  }
+])
