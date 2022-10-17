@@ -1,6 +1,6 @@
-use 'commerce';
+use commerce
 
-db.produtos.drop();
+db.produtos.drop()
 
 db.produtos.insertMany([
   {
