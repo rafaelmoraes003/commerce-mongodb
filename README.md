@@ -45,7 +45,7 @@ Faça o clone da aplicação usando o comando `git clone`. Após isso, entre na 
 
 <h2 align="left">Desafios (Queries)</h2>
 
-Os desafios (queries) feitas no projeto se encontram na pasta `./challenges`. São 32 desafios com suas respectivas descrições.
+Os desafios (queries) feitos no projeto se encontram na pasta `./challenges`. São 32 desafios com suas respectivas descrições.
 
 ###
 
