@@ -35,7 +35,7 @@ Faça o clone da aplicação usando o comando `git clone`. Após isso, entre na 
 
 - 2 - Utilize o comando `docker run -d --name=nomeDoContainer -v "$PWD:/app" -p 27017:27017 mongo:5.0`.
 
-- 3 - Com o container em execução, acesse o terminal do `container docker exec -it nomeDoContainer mongosh`.
+- 3 - Com o container em execução, acesse o terminal do container com o comando `docker exec -it nomeDoContainer mongosh`.
 
 - 4 - Copie o conteúdo do arquivo `./database.mongodb`, cole no terminal e aperte ENTER.
 
