@@ -35,7 +35,7 @@
 
 ###
 
-<h2 align="left">Desafio (Queries)</h2>
+<h2 align="left">Desafios (Queries)</h2>
 
 Os desafios (queries) feitas no projeto se encontram na pasta `./challenges`. São 32 desafios.
 
