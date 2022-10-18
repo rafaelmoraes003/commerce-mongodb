@@ -17,6 +17,14 @@
 
 ###
 
+<h2 align="left">Como utilizar a aplicação</h2>
+
+###
+
+Faça o clone da aplicação usando o comando `git clone`. Após isso, entre na pasta do projeto utilizando o comando `cd commerce-mongodb`.
+
+###
+
 <h2 align="left">Sobre o banco de dados</h2>
 
 ###
