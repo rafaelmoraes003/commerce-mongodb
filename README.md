@@ -2,11 +2,11 @@
 
 ###
 
-<p align="left">O projeto Commerce tem como objetivo praticar queries do MongoDB em um banco de dados contém dados do cardápio do McDonald's, como ingredientes, valores nutricionais e dados fictícios de vendas.</p>
+<p align="left">The Commerce project aims to practice MongoDB queries on a database containing McDonald's menu data, such as ingredients, nutritional values and fictitious sales data.</p>
 
 ###
 
-<h2 align="left">Tecnologias utilizadas</h2>
+<h2 align="left">Technologies used</h2>
 
 ###
 
@@ -17,35 +17,34 @@
 
 ###
 
-<h2 align="left">Como utilizar a aplicação</h2>
+<h2 align="left">How to use the application</h2>
 
 ###
 
-Faça o clone da aplicação usando o comando `git clone`. Após isso, entre na pasta do projeto utilizando o comando `cd commerce-mongodb`.
+Clone the application using the `git clone` command. After that, enter the project folder using the `cd commerce-mongodb` command.
 
 ###
 
-<h2 align="left">Sobre o banco de dados</h2>
+<h2 align="left">About the database</h2>
 
 ###
 
-### - Para criar o banco de dados através do Docker, siga os seguintes passos:
+### - To create the database through Docker, follow these steps:
 
-- 1 - Acesse a pasta raiz do projeto
+- 1 - Access the root folder of the project
 
-- 2 - Utilize o comando `docker run -d --name=nomeDoContainer -v "$PWD:/app" -p 27017:27017 mongo:5.0`.
+- 2 - Use the command `docker run -d --name=containerName -v "$PWD:/app" -p 27017:27017 mongo:5.0`.
 
-- 3 - Com o container em execução, acesse o terminal do container com o comando `docker exec -it nomeDoContainer mongosh`.
+- 3 - With the container running, access the container's terminal with the command `docker exec -it nameOfContainer mongosh`.
 
-- 4 - Copie o conteúdo do arquivo `./database.mongodb`, cole no terminal e aperte ENTER.
+- 4 - Copy the contents of the file `./database.mongodb`, paste it in the terminal and press ENTER.
 
-### - Caso utilize o MongoDB localmente, o arquivo para popular o banco de dados se encontra em `./database.mongodb`.
-
-###
-
-<h2 align="left">Desafios (Queries)</h2>
-
-Os desafios (queries) feitos no projeto se encontram na pasta `./challenges`. São 32 desafios com suas respectivas descrições.
+### - If you use MongoDB locally, the file to populate the database is found at `./database.mongodb`.
 
 ###
 
+<h2 align="left">Challenges (Queries)</h2>
+
+The challenges (queries) made in the project are found in the folder `./challenges`. There are 32 challenges with their respective descriptions.
+
+###
